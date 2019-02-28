@@ -4,6 +4,7 @@
   "description": "A social app where user can play cricket fantasy games & see movies recommendation",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
