@@ -5,7 +5,7 @@ var error = require('./error');
 
 module.exports = function (app) {
 
-    app.get('/test',function(req, res, next) {
+    app.get('/',function(req, res, next) {
                 res.render('index.html');
               });
 
