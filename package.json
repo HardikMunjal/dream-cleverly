@@ -1,0 +1,22 @@
+{
+  "name": "dream.backend",
+  "version": "1.0.0",
+  "description": "A social app where user can play cricket fantasy games & see movies recommendation",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "colors": "^1.1.2",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.5.7",
+    "express": "^4.15.4",
+    "express-session": "^1.15.5",
+    "mongoose": "^4.11.10",
+    "multer": "^1.3.0",
+    "request": "^2.81.0"
+  }
+}
