@@ -7,7 +7,10 @@ const session = require('express-session');
 const multer = require('multer');
 const request = require('request');
 const colors = require('colors');
-const cors_sec = require('./routes/corsheaders')
+const cors_sec = require('./routes/corsheaders');
+const port = require('./config/endpoint').port;
+
+
 // const mongoose = require('mongoose');
 // mongoose.Promise = Promise;
 // mongoose.connect('mongodb://localhost/trucking');
@@ -44,7 +47,7 @@ process.on('uncaughtException', function(err,req,res) {
   //process.exit(1);
   });
 
-const server = http.listen(5000, function () {
+const server = http.listen(port, function () {
   var host = server.address().address;
   var port = server.address().port;
 
