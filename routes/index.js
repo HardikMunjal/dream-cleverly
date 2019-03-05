@@ -6,8 +6,12 @@ var error = require('./error');
 module.exports = function (app) {
 
     app.get('/',function(req, res, next) {
+      console.log('got it');
                 res.render('index.html');
               });
+    app.get('/test',function(req, res, next) {
+      res.end('that is cool');
+    });
 
     
    //  app.post('/authenticate', authCtlr.validateCredential);
